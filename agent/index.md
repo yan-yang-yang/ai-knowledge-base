@@ -5,6 +5,7 @@
 ## 当前重点
 
 - [OpenClaw 六大支柱技术细节](./case-studies/openclaw-six-pillars/)
+- [Claude Code 六大支柱技术细节](./case-studies/claude-code-six-pillars/)
 - [OpenClaw 六大支柱面试速记](./case-studies/openclaw-six-pillars/interview)
 
 ## 分类

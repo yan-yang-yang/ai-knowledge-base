@@ -15,6 +15,12 @@
 5. [Multi-Agent](./05-multi-agent) — Explore Agent、AsyncLocalStorage、Worktree、Swarm、Mailbox
 6. [Harness Engineering](./06-harness) — 权限系统、Bash 分类器、Hook、JSONL transcript、Routines
 
+## 面试材料
+
+- [Claude Code 六大支柱面试速记与总结](./interview)
+- [Claude Code vs OpenClaw 六大支柱横向对比](../claude-code-vs-openclaw-six-pillars/)
+
+
 ## 对比 OpenClaw 的总印象
 
 | 维度 | Claude Code | OpenClaw |

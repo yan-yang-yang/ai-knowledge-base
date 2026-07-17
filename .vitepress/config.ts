@@ -12,6 +12,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: 'Agent', link: '/agent/' },
+      { text: '六大支柱对比', link: '/agent/case-studies/claude-code-vs-openclaw-six-pillars/' },
       { text: 'OpenClaw 六大支柱', link: '/agent/case-studies/openclaw-six-pillars/' },
       { text: 'Claude Code 六大支柱', link: '/agent/case-studies/claude-code-six-pillars/' }
     ],
@@ -21,6 +22,13 @@ export default defineConfig({
           text: 'Agent 知识库',
           items: [
             { text: 'Agent 首页', link: '/agent/' }
+          ]
+        },
+        {
+          text: '六大支柱横向对比',
+          collapsed: false,
+          items: [
+            { text: 'Claude Code vs OpenClaw', link: '/agent/case-studies/claude-code-vs-openclaw-six-pillars/' }
           ]
         },
         {
@@ -48,7 +56,8 @@ export default defineConfig({
             { text: '03 Context Engineering', link: '/agent/case-studies/claude-code-six-pillars/03-context-engineering' },
             { text: '04 Memory', link: '/agent/case-studies/claude-code-six-pillars/04-memory' },
             { text: '05 Multi-Agent', link: '/agent/case-studies/claude-code-six-pillars/05-multi-agent' },
-            { text: '06 Harness Engineering', link: '/agent/case-studies/claude-code-six-pillars/06-harness' }
+            { text: '06 Harness Engineering', link: '/agent/case-studies/claude-code-six-pillars/06-harness' },
+            { text: '面试速记', link: '/agent/case-studies/claude-code-six-pillars/interview' }
           ]
         },
         {

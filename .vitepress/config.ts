@@ -13,6 +13,7 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: 'Agent', link: '/agent/' },
       { text: '项目面试', link: '/interview/projects/' },
+      { text: '每日面试题', link: '/interview/daily/' },
       { text: '六大支柱对比', link: '/agent/case-studies/claude-code-vs-openclaw-six-pillars/' },
       { text: 'OpenClaw 六大支柱', link: '/agent/case-studies/openclaw-six-pillars/' },
       { text: 'Claude Code 六大支柱', link: '/agent/case-studies/claude-code-six-pillars/' }
@@ -22,7 +23,9 @@ export default defineConfig({
         {
           text: '面试准备',
           items: [
-            { text: '项目面试讲稿 + 高频追问', link: '/interview/projects/' }
+            { text: '项目面试讲稿 + 高频追问', link: '/interview/projects/' },
+            { text: '每日面试题', link: '/interview/daily/' },
+            { text: 'LangGraph 框架取舍', link: '/interview/daily/2026-07-21-langgraph-pros-cons-replacement' }
           ]
         }
       ],

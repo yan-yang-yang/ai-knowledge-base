@@ -79,7 +79,6 @@ export default defineConfig({
             { text: 'Prompt Engineering', link: '/agent/prompt-engineering/' },
             { text: '工具与 MCP', link: '/agent/tools-and-mcp/' },
             { text: '架构模式', link: '/agent/patterns/' },
-            { text: '仓库上传 Agent 可靠性面试题', link: '/agent/patterns/repository-upload-agent-reliability-interview' },
             { text: '实战案例', link: '/agent/case-studies/' }
           ]
         }

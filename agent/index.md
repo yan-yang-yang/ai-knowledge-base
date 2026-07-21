@@ -9,7 +9,6 @@
 - [Claude Code 六大支柱技术细节](./case-studies/claude-code-six-pillars/)
 - [Claude Code 六大支柱面试速记](./case-studies/claude-code-six-pillars/interview)
 - [OpenClaw 六大支柱面试速记](./case-studies/openclaw-six-pillars/interview)
-- [仓库上传 / Git 同步场景下的 Agent 可靠性面试题](./patterns/repository-upload-agent-reliability-interview)
 
 ## 分类
 

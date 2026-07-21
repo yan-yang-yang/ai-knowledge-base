@@ -4,6 +4,7 @@
 
 ## 题目列表
 
+- [2026-07-21：RAG 知识库如何从 0 搭建，以及如何优化](./2026-07-21-rag-knowledge-base-chunking-optimization)
 - [2026-07-21：LangGraph 框架好坏与为什么后期弱化 / 舍弃](./2026-07-21-langgraph-pros-cons-replacement)
 
 ## 使用方式

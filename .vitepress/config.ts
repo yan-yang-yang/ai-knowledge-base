@@ -79,6 +79,7 @@ export default defineConfig({
             { text: 'Prompt Engineering', link: '/agent/prompt-engineering/' },
             { text: '工具与 MCP', link: '/agent/tools-and-mcp/' },
             { text: '架构模式', link: '/agent/patterns/' },
+            { text: 'Agent 运行失败与容错恢复面试题', link: '/agent/patterns/agent-failure-recovery-interview' },
             { text: '实战案例', link: '/agent/case-studies/' }
           ]
         }

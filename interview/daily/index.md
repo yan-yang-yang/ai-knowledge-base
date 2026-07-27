@@ -4,6 +4,8 @@
 
 ## 题目列表
 
+- [2026-07-27：KV Cache 和 Prompt Cache 有什么区别？](./2026-07-27-kv-cache-vs-prompt-cache)
+- [2026-07-27：Skills 和 MCP 有什么区别？](./2026-07-27-skills-vs-mcp)
 - [2026-07-21：RAG 知识库如何从 0 搭建，以及如何优化](./2026-07-21-rag-knowledge-base-chunking-optimization)
 - [2026-07-21：LangGraph 框架好坏与为什么后期弱化 / 舍弃](./2026-07-21-langgraph-pros-cons-replacement)
 

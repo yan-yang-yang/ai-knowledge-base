@@ -25,6 +25,7 @@ export default defineConfig({
           items: [
             { text: '项目面试讲稿 + 高频追问', link: '/interview/projects/' },
             { text: '每日面试题', link: '/interview/daily/' },
+            { text: 'Agent 中断原因分析与恢复方案', link: '/interview/daily/2026-07-29-agent-interruption-recovery' },
             { text: 'LangGraph 框架取舍', link: '/interview/daily/2026-07-21-langgraph-pros-cons-replacement' }
           ]
         }

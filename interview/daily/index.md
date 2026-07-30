@@ -4,6 +4,7 @@
 
 ## 题目列表
 
+- [2026-07-30：LangGraph 多 Agent 如何协作与通信](./2026-07-30-langgraph-multi-agent-collaboration)
 - [2026-07-29：Agent 中断原因分析与恢复方案](./2026-07-29-agent-interruption-recovery)
 - [2026-07-27：KV Cache 和 Prompt Cache 有什么区别？](./2026-07-27-kv-cache-vs-prompt-cache)
 - [2026-07-27：Skills 和 MCP 有什么区别？](./2026-07-27-skills-vs-mcp)

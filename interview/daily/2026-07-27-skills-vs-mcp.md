@@ -216,7 +216,25 @@ Skills 和 MCP 不是同一层东西。MCP 是外部工具接入协议，解决�
 
 ---
 
-## 11. 事实来源
+## 11. 面试里常见的 Agent 协议有哪些？
+
+如果面试官问“Agent 协议一般有哪些”，通常可以按这几层回答：
+
+- **MCP（Model Context Protocol）**：最常见的外部能力接入协议，负责 tools / resources / prompts 的标准化发现与调用。
+- **A2A（Agent-to-Agent）**：Agent 和 Agent 之间的通信 / 协作协议，重点是任务转交、消息交换、状态同步。
+- **ACP**：不同团队的定义不完全一致，通常也会被用来泛指 Agent 协作 / 通信协议；面试里最好结合上下文说明具体指什么。
+- **Function Calling / Tool Calling**：严格说更像调用约定，不一定是完整协议，但在面试里经常和 MCP 放在一起问，核心是模型如何声明要调用哪个工具、带哪些参数。
+- **自定义 Wire Protocol**：比如 runtime 内部的 req / res / event 消息协议，常见于自研 Agent Runtime、Gateway、长连接系统。
+
+更稳的回答方式是把它们分成三类：
+
+1. **工具接入协议**：MCP。
+2. **Agent 间通信协议**：A2A / ACP / 自定义消息协议。
+3. **模型调用工具的约定**：Function Calling / Tool Calling。
+
+这样面试官能听出你不是在背名词，而是在按系统分层理解。
+
+## 12. 事实来源
 
 - `memory/notes/ai-agent-course-index.md`：Sitor 课程中 MCP 与 Skills 文章索引。
 - `memory/notes/openclaw-six-pillars/02-tool-system.md`：OpenClaw Tool System、MCP 与 Skills 取舍。

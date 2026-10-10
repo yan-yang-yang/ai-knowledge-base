@@ -7,3 +7,4 @@
 - [Claude Code vs OpenClaw 六大支柱横向对比](./claude-code-vs-openclaw-six-pillars/)
 - [Claude Code 六大支柱技术细节](./claude-code-six-pillars/)
 - [OpenClaw 六大支柱技术细节](./openclaw-six-pillars/)
+- [Pi Agent 六大支柱技术细节](./pi-agent-six-pillars/)

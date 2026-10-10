@@ -7,6 +7,7 @@
 - [Claude Code vs OpenClaw 六大支柱横向对比](./case-studies/claude-code-vs-openclaw-six-pillars/)
 - [OpenClaw 六大支柱技术细节](./case-studies/openclaw-six-pillars/)
 - [Claude Code 六大支柱技术细节](./case-studies/claude-code-six-pillars/)
+- [Pi Agent 六大支柱技术细节](./case-studies/pi-agent-six-pillars/)
 - [Claude Code 六大支柱面试速记](./case-studies/claude-code-six-pillars/interview)
 - [OpenClaw 六大支柱面试速记](./case-studies/openclaw-six-pillars/interview)
 - [Agent 运行失败与容错恢复面试题](./patterns/agent-failure-recovery-interview)

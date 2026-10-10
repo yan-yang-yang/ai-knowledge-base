@@ -16,7 +16,8 @@ export default defineConfig({
       { text: '每日面试题', link: '/interview/daily/' },
       { text: '六大支柱对比', link: '/agent/case-studies/claude-code-vs-openclaw-six-pillars/' },
       { text: 'OpenClaw 六大支柱', link: '/agent/case-studies/openclaw-six-pillars/' },
-      { text: 'Claude Code 六大支柱', link: '/agent/case-studies/claude-code-six-pillars/' }
+      { text: 'Claude Code 六大支柱', link: '/agent/case-studies/claude-code-six-pillars/' },
+      { text: 'Pi Agent 六大支柱', link: '/agent/case-studies/pi-agent-six-pillars/' }
     ],
     sidebar: {
       '/interview/': [
@@ -71,6 +72,20 @@ export default defineConfig({
             { text: '05 Multi-Agent', link: '/agent/case-studies/claude-code-six-pillars/05-multi-agent' },
             { text: '06 Harness Engineering', link: '/agent/case-studies/claude-code-six-pillars/06-harness' },
             { text: '面试速记', link: '/agent/case-studies/claude-code-six-pillars/interview' }
+          ]
+        },
+        {
+          text: 'Pi Agent 六大支柱',
+          collapsed: false,
+          items: [
+            { text: '总览', link: '/agent/case-studies/pi-agent-six-pillars/' },
+            { text: '01 Agent Loop', link: '/agent/case-studies/pi-agent-six-pillars/01-agent-loop' },
+            { text: '02 Tool System', link: '/agent/case-studies/pi-agent-six-pillars/02-tool-system' },
+            { text: '03 Context Engineering', link: '/agent/case-studies/pi-agent-six-pillars/03-context-engineering' },
+            { text: '04 Memory', link: '/agent/case-studies/pi-agent-six-pillars/04-memory' },
+            { text: '05 Multi-Agent', link: '/agent/case-studies/pi-agent-six-pillars/05-multi-agent' },
+            { text: '06 Harness Engineering', link: '/agent/case-studies/pi-agent-six-pillars/06-harness' },
+            { text: '面试速记', link: '/agent/case-studies/pi-agent-six-pillars/interview' }
           ]
         },
         {

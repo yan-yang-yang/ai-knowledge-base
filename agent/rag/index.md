@@ -147,7 +147,7 @@ observe → decide query → retrieve → inspect → refine query → retrieve 
 
 RAG 与 Agent 的测试集设计、分层评测、问题定位和面试逐字稿见：[RAG / Agent 评测与优化闭环](./evaluation/)。
 
-线上系统的响应速度、权限边界、知识版本更新和缓存一致性方案，参见：[RAG 线上工程与可靠性](./production/)。
+线上系统还需关注响应速度、权限边界、知识版本更新和缓存一致性。
 
 ## 7. 面试表达
 

@@ -143,13 +143,17 @@ observe → decide query → retrieve → inspect → refine query → retrieve 
 
 ---
 
-## 6. 面试表达
+## 6. RAG 线上工程与可靠性
 
-### 6.1 两分钟回答版
+线上系统还需要处理响应速度、权限边界、知识版本更新和缓存一致性，相关方案见：[RAG 线上工程与可靠性](./production/)。RAG 与 Agent 的测试集设计、分层评测、问题定位和面试逐字稿见：[RAG / Agent 评测与优化闭环](./evaluation/)。
+
+## 7. 面试表达
+
+### 7.1 两分钟回答版
 
 > RAG 不是简单把文档切块丢进向量库，而是一条完整知识管线。首先要加载文档并保留结构和元数据，然后选择合适的分块策略；分块太小会丢上下文，太大又会召回噪声。接着用 Embedding 建向量索引，同时最好保留原文和元数据，方便审计和重建。检索阶段不能只依赖语义相似，因为语义相似不等于任务相关，所以生产系统通常会做混合检索，把向量和关键词结合，再通过 query 改写、HyDE、子问题分解、reranker、MMR 去重和时间衰减提升结果质量。到了 Agent 场景，RAG 会变成 Agentic RAG：模型可以在 Loop 中多轮检索、检查结果、调整 query。再往前一步，就是 LLM 编译知识库，把 raw 原始素材编译成 wiki 结构化知识，并通过 schema 约束持续维护。
 
-### 6.2 高频追问
+### 7.2 高频追问
 
 #### Q1：为什么不能只用向量检索？
 
@@ -165,7 +169,7 @@ observe → decide query → retrieve → inspect → refine query → retrieve 
 
 ---
 
-## 7. 关键词速记
+## 8. 关键词速记
 
 - Document Loading
 - Chunking

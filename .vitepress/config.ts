@@ -95,7 +95,6 @@ export default defineConfig({
             { text: '基础概念', link: '/agent/fundamentals/' },
             { text: '主流框架', link: '/agent/frameworks/' },
             { text: 'RAG', link: '/agent/rag/' },
-            { text: 'RAG 线上工程与可靠性', link: '/agent/rag/production/' },
             { text: 'RAG / Agent 评测与优化闭环', link: '/agent/rag/evaluation/' },
             { text: 'Prompt Engineering', link: '/agent/prompt-engineering/' },
             { text: '工具与 MCP', link: '/agent/tools-and-mcp/' },
